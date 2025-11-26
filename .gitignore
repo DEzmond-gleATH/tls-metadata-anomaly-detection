@@ -1,0 +1,18 @@
+# Python / env
+__pycache__/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data - do NOT commit raw CESNET data
+data/
+data/cesnet-tls22/
+data/*.csv
+data/*.csv.gz
