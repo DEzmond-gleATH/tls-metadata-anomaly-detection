@@ -1,10 +1,9 @@
 # Encrypted Traffic Anomaly Detection via TLS Metadata
 
 This project classifies **encrypted TLS flows** into application categories using only
-**flow-level metadata**, without decrypting payloads. It was developed as part of  
-**CP-614: Applied Cryptography** at Wilfrid Laurier University.
+**flow-level metadata**, without decrypting payloads. It was developed as part of **CP-614: Applied Cryptography** at Wilfrid Laurier University.
 
-We use the **CESNET-TLS22** dataset and train **Random Forest** and **XGBoost** models
+I use the **CESNET-TLS22** dataset and train **Random Forest** and **XGBoost** models
 on a highly imbalanced, real-world dataset.
 
 ---
