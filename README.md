@@ -1,4 +1,3 @@
-````markdown
 # Encrypted Traffic Anomaly Detection via TLS Metadata
 
 This project classifies **encrypted TLS flows** into application categories using only
